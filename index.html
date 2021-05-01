@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Flask App</title></head>
+
+<body>
+<h1>Active Hours Predictors</h1>
+<form action="{{ url_for("successfull")}}" method="post">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" placeholder="name"><br><br>
+<label for="sleepinghours">Hours You Slept</label>
+<input type="text" id="hours" name="hours" placeholder="hours"><br><br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</body>
+</html>

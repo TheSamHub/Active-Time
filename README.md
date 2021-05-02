@@ -3,7 +3,8 @@
 This is a flask based web application which will tell how many hours you will be active after sleeping for a given number of hours,
 This is based on Machine Learning where the app will answer based on your previous records of sleeping and active hours.
 
-ActiveTime.ipynb : A complete colab notebook where all the model designing, training and other plots are made.
+ActiveTime.ipynb : A complete colab notebook where all the model designing, algorithm selection using plots and data and finally training is done. Linear Regression was used to
+                   predict the active hours.
 
 Screenshot (303).png : A screeshot of the first page you will see upon opening the web application.
 
